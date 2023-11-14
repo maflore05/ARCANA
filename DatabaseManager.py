@@ -1,17 +1,17 @@
-
+from Event import Event
 
 class DatabaseManager:
-  eventList: list[Event]
+    eventList: list[Event]
 
-  def __init__(self, ls_events: list[Event]) -> None:
-    self.eventList = ls_events
+    def __init__(self, ls_events: list[Event]) -> None:
+        self.eventList = ls_events
 
-  def writeNewEvents(self, new_events: list[Event]) -> string:
-    pass
+    def writeNewEvents(self, new_events: list[Event]) -> str:
+        pass
 
-  def updateEvent(self, event: Event) -> string:
-    pass
+    def updateEvent(self, event: Event) -> str:
+        pass
 
-  def removeEvent(self, event: Event) -> string:
-    pass
+    def removeEvent(self, event: Event) -> str:
+        pass
 

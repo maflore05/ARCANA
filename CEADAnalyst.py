@@ -1,10 +1,9 @@
 from datetime import datetime
 
 class CEADAnalyst:
-  currentUser: string = ""
-  timeOfAccess: time = datetime()
+    currentUser: str
+    timeOfAccess: datetime
 
-  def __init__(self, user: string):
-    self.currentUser = user
-
-
+    def __init__(self, user: str):
+        self.currentUser = user
+        self.timeOfAccess = datetime.now()

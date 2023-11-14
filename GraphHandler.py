@@ -1,14 +1,14 @@
-
+from Event import Event
 
 class GraphHandler:
-  graphValues: list[Events]
+    graphValues: list[Event]
 
-  def __init__(self, gr_vals: list[Events] = []) -> None:
-    self.graphValues = gr_vals
+    def __init__(self, gr_vals: list[Event] = []) -> None:
+        self.graphValues = gr_vals
 
-  def getGraphInfo(self, graphID) -> string:
-    pass
+    def getGraphInfo(self, graphID) -> str:
+        pass
 
-  def plotGraph(self) -> None:
-    pass
+    def plotGraph(self) -> None:
+        pass
 
